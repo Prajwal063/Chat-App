@@ -1,0 +1,71 @@
+html, body {
+  font-family: 'georgia', sans-serif; /* Changed font to Arial */
+  padding: 0;
+  margin: 0;
+}
+
+#root {
+  height: 100vh;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.joinOuterContainer {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  height: 100vh;
+  align-items: center;
+  background-image: url('../../icons/background.jpg'); /* Add background image */
+  background-size: cover; /* Ensure the background image covers the entire container */
+}
+
+.joinInnerContainer {
+  width: 50%; /* Adjusted width for larger screens */
+  max-width: 400px; /* Added maximum width to maintain readability */
+  background-color: rgba(0, 0, 0, 0.7); /* Added a semi-transparent background color */
+  padding: 20px; /* Added padding for better spacing */
+  border-radius: 10px; /* Rounded corners */
+}
+
+.joinInput {
+  border-radius: 5px; /* Adjusted border-radius */
+  padding: 15px 20px;
+  width: 100%;
+}
+
+.heading {
+  color: white;
+  font-size: 2.5em;
+  padding-bottom: 10px;
+  border-bottom: 2px solid white;
+}
+
+.button {
+  color: #fff !important;
+  text-transform: uppercase;
+  text-decoration: none;
+  background: #2979FF;
+  padding: 20px;
+  border-radius: 5px;
+  display: inline-block;
+  border: none;
+  width: 100%;
+}
+
+.mt-20 {
+  margin-top: 20px;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .joinInnerContainer {
+    width: 90%; /* Adjusted width for smaller screens */
+    max-width: none; /* Removed maximum width */
+  }
+}
+
+button:focus {
+  outline: 0;
+}

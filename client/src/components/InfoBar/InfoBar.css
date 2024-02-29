@@ -1,0 +1,38 @@
+.infoBar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #279EFF;
+  border-radius: 4px 4px 0 0;
+  height: 60px;
+  width: 100%;
+  font-family: Georgia, serif; /* Set font to Georgia */
+}
+
+.leftInnerContainer {
+  flex: 0.5;
+  display: flex;
+  align-items: center;
+  margin-left: 5%;
+  color: white;
+}
+
+.rightInnerContainer {
+  flex: 0.5; /* Adjusted flex property */
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 5%;
+}
+
+.onlineIcon {
+  margin-right: 5%;
+}
+
+@media screen and (max-width: 768px) {
+  .leftInnerContainer,
+  .rightInnerContainer {
+    flex: 1; /* Full width for smaller screens */
+    /* justify-content: center; Center align content */
+    margin: 5%; /* Remove margins for better spacing */
+  }
+}

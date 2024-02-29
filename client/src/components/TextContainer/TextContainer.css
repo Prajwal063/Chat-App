@@ -1,0 +1,65 @@
+.outerClass {
+  display: flex;
+  flex-direction: column;
+  margin: 1%;
+  color: white;
+  height: 85%;
+  margin-top: -200px;
+  justify-content: space-between;
+}
+
+.activeContainer {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1%;
+}
+
+.activeItem {
+  display: flex;
+  align-items: center;
+}
+
+.activeContainer img {
+  padding-left: 10px;
+}
+
+.outerClass h1 {
+  margin: 0px;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .outerClass {
+    display: flex;
+    flex-direction:column;
+    height: 100%; /* Set the initial height */
+    margin-top: -250px;
+    margin-right: 20%;
+  }
+  
+  .outerClass h1 {
+    font-size: 100%
+  }
+
+  .outerClass h2 {
+    font-size: 60%
+  }
+}
+
+@media (min-width: 480px) and (max-width: 1200px) {
+  .outerClass {
+    display: flex;
+    flex-direction:column;
+    height: 100%; /* Set the initial height */
+    margin-top: -200px;
+    margin-right: 20%;
+  }
+  
+  .outerClass h1 {
+    font-size: 150%
+  }
+
+  .outerClass h2 {
+    font-size: 80%
+  }
+}
+

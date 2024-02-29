@@ -1,0 +1,89 @@
+.messageContainer {
+  display: flex;
+  justify-content: flex-end; /* Center align messages by default */
+  padding: 0 1%;
+  margin-top: 3px;
+  margin-bottom: 1%;
+}
+
+.admin{
+  background-color: transparent;
+}
+
+.messageBox {
+  background: #ffffff;
+  border-radius: 20px;
+  padding: 0 3.5%;
+  color: rgb(0, 0, 0);
+  display: inline-block;
+  max-width: 85%;
+}
+
+.messageText {
+  width: 100%;
+  letter-spacing: 0;
+  float: right;
+  font-size: 1.1em;
+  word-wrap: break-word;
+  margin: 1%;
+  padding-bottom: 2%;
+  /* display: inline-block; */
+}
+
+.messageText img {
+  vertical-align: middle;
+  padding: 0%;
+}
+
+.justifyEnd {
+  justify-content: flex-end; /* Align messages sent by the user to the right */
+}
+
+.justifyStart {
+  justify-content: flex-start; /* Align messages sent by others to the left */
+}
+
+.center {
+  justify-content: center; /* Align messages sent by admin to the center */
+}
+
+.backgroundBlue {
+  background: #D2E0FB; /* Blue background for sender and admin messages */
+}
+
+.backgroundRed {
+  background: #F9EBC8; /* Red background for other users' messages */
+}
+
+.colorRed {
+  color: #001B79; /* Red color for admin's message text */
+}
+
+.colorWhite {
+  color: white;
+}
+
+.colorDark {
+  color: #353535;
+}
+
+.sender {
+  margin: 0;
+  text-align:right;
+  font-family: Helvetica;
+  color: #FF6000;
+  letter-spacing: 0.3px;
+}
+
+.receiver {
+  margin: 0;
+  text-align:left;
+  font-family: Helvetica;
+  color: #FF6000;
+  letter-spacing: 0.3px;
+}
+
+.alignRight{
+  float: right;
+}
+

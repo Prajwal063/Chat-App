@@ -1,0 +1,51 @@
+.form {
+  display: flex;
+  align-items: center; /* Align items vertically */
+  font-family: Georgia, serif; /* Change font to Georgia */
+}
+
+.form .input {
+  border: none;
+  border-radius: 0;
+  width: 100%;
+  padding: 10px; /* Increased padding for better spacing */
+  margin-right: 10px; /* Added margin to separate input and button */
+  font-size: 1em; /* Adjusted font size */
+}
+
+.form input:focus, 
+.form textarea:focus, 
+.form select:focus {
+  outline: none;
+}
+
+.form .sendButton {
+  color: #fff;
+  background: #279EFF;
+  border: none;
+  padding: 16px 30px; /* Adjusted padding for button */
+  border-radius: 7%;
+}
+
+/* Optional: Add styling to make it look like a chat box */
+.form {
+  border-top: 2px solid #279EFF;
+  padding: 20px; /* Added padding around the form */
+}
+
+/* Optional: Style for text input */
+.form .input[type="text"] {
+  border-bottom: 2px solid #279EFF; /* Add bottom border for text input */
+}
+
+/* Optional: Style for textarea */
+.form .input[type="textarea"] {
+  border: 2px solid #279EFF; /* Add border for textarea */
+  resize: none; /* Disable resizing */
+  min-height: 100px; /* Set minimum height */
+}
+
+/* Optional: Style for select */
+.form .input[type="select"] {
+  border: 2px solid #279EFF; /* Add border for select */
+}
