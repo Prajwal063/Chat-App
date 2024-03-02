@@ -12,7 +12,7 @@ const io = require("socket.io-client");
 
 let socket;
 
-const ENDPOINT = 'localhost:5000';
+const ENDPOINT = process.env.REACT_APP_API_URL;
 
 const Chat = () => {
   const location = useLocation();
