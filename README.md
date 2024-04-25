@@ -1,4 +1,4 @@
-  <p align="center">Chat Application</p>
+  <h1 align="center">Chat Application</h1>
 
 </div>
 
